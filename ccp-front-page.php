@@ -98,10 +98,11 @@ final class CCP_Front_Page {
 
 		wp_localize_script(
 			'ccp-front-page-options-reading',
-			'ccp_front_page_vars',
-			array(
-				'label'         => esc_html__( 'Your latest portfolio projects', 'custom-content-portfolio' ),
-				'show_on_front' => esc_js( get_option( 'show_on_front', 'posts' ) ),
+			'ccp_front_page_field',
+			sprintf(
+				'<p><label><input name="show_on_front" type="radio" value="ccp" class="tog" %s /> %s</label></p>',
+				( 'ccp' === get_option( 'show_on_front', 'posts' ) ) ? 'checked="checked"' : null,
+				esc_html__( 'Your latest portfolio projects', 'custom-content-portfolio' )
 			)
 		);
 
