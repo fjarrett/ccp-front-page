@@ -2,7 +2,7 @@
 /**
  * Plugin Name: CCP Front Page
  * Description: Allow portfolio projects to be displayed on the front page.
- * Version: 0.1.0
+ * Version: 0.0.1
  * Author: Frankie Jarrett
  * Author URI: https://frankiejarrett.com/
  */
@@ -18,16 +18,16 @@ final class CCP_Front_Page {
 	/**
 	 * Plugin version number.
 	 *
-	 * @since  0.1.0
+	 * @since  0.0.1
 	 * @access private
 	 * @var    string
 	 */
-	private $version = '0.1.0';
+	private $version = '0.0.1';
 
 	/**
 	 * Plugin instance.
 	 *
-	 * @since  0.1.0
+	 * @since  0.0.1
 	 * @access private
 	 * @var    CCP_Front_Page
 	 */
@@ -36,7 +36,7 @@ final class CCP_Front_Page {
 	/**
 	 * Return the plugin instance.
 	 *
-	 * @since  0.1.0
+	 * @since  0.0.1
 	 * @access public
 	 * @return CCP_Front_Page
 	 */
@@ -55,7 +55,7 @@ final class CCP_Front_Page {
 	/**
 	 * Class contructor.
 	 *
-	 * @since  0.1.0
+	 * @since  0.0.1
 	 * @access private
 	 */
 	private function __construct() {
@@ -75,7 +75,7 @@ final class CCP_Front_Page {
 	 * Enqueue admin scripts.
 	 *
 	 * @action admin_enqueue_scripts
-	 * @since  0.1.0
+	 * @since  0.0.1
 	 * @access public
 	 * @param  string $hook
 	 */
@@ -112,7 +112,7 @@ final class CCP_Front_Page {
 	 *
 	 * @action pre_get_posts
 	 *
-	 * @since  0.1.0
+	 * @since  0.0.1
 	 * @access public
 	 * @param  WP_Query $query
 	 * @return WP_Query
@@ -142,7 +142,7 @@ final class CCP_Front_Page {
 /**
  * Return the plugin instance.
  *
- * @since  0.1.0
+ * @since  0.0.1
  * @access public
  * @return CCP_Front_Page
  */
