@@ -9,7 +9,7 @@ Allow portfolio projects to be displayed on the front page.
 
 ## Description ##
 
-This is am experimental feature plugin that requires the [Custom Content Portfolio](https://wordpress.org/plugins/custom-content-portfolio/) plugin.
+This is an experimental feature plugin that requires the [Custom Content Portfolio](https://wordpress.org/plugins/custom-content-portfolio/) plugin.
 
 ## Changelog ##
 
