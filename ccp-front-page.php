@@ -154,3 +154,17 @@ function ccp_front_page() {
 }
 
 ccp_front_page();
+
+/**
+ * Run when the plugin is deactivated.
+ *
+ * @since  0.0.1
+ * @access public
+ */
+function ccp_front_page_deactivate() {
+
+	update_option( 'show_on_front', 'posts' );
+
+}
+
+register_deactivation_hook( __FILE__, 'ccp_front_page_deactivate' );
