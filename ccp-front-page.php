@@ -5,6 +5,10 @@
  * Version: 0.0.1
  * Author: Frankie Jarrett
  * Author URI: https://frankiejarrett.com/
+ * 
+ * Copyright: © 2015 Frankie Jarrett.
+ * License: GNU General Public License v2.0
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
